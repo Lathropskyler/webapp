@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<title>PornHub</title>
+		
+		<style>
+		
+		</style>
+		
+		
+	</head>
+	<body>
+		<div>
+		<input type="text" id="text"></input>
+		<button id="button"s>Change Text</button>
+		<p id="words">This is some text</p>
+		
+		
+		</div>
+		
+		
+		<script type="text/javascript">
+			
+			document.getElementById("button").onclick = function(){
+			 var ntext = document.getElementById("text").innerHTML;
+			document.getElementById("words").innerHTML + ntext;
+			}
+	
+		</script>
+	</body>
+</html>
